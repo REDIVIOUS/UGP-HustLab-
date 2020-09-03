@@ -1,0 +1,25 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 38f670bad7854a0b8f9f509572a771e3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot UART_IP_v1_0_behav xil_defaultlib.UART_IP_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port tx_data [C:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v:98]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port rx_data [C:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v:100]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" Line 7. Module GenBuadRate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/transmit.v" Line 1. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/reciever.v" Line 1. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" Line 7. Module GenBuadRate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/transmit.v" Line 1. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/reciever.v" Line 1. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.UART_IP_v1_0_S00_AXI(C_S_AXI_DAT...
+Compiling module xil_defaultlib.GenBuadRate
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.UART_IP_v1_0
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot UART_IP_v1_0_behav

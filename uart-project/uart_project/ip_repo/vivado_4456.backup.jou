@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jul 24 02:20:03 2020
+# Process ID: 15208
+# Log file: C:/Users/18131/Desktop/task2/task2_project/ip_repo/vivado.log
+# Journal file: C:/Users/18131/Desktop/task2/task2_project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.xpr
+ipx::open_ipxact_file C:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/component.xml
+ipx::remove_file C:/Users/18131/Desktop/task2/sim_source/all_uart_test.v [ipx::get_file_groups xilinx_testbench -of_objects [ipx::current_core]]
+ipx::add_file ../../../sim_source/all_uart_test.v [ipx::get_file_groups xilinx_testbench -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../sim_source/all_uart_test.v -of_objects [ipx::get_file_groups xilinx_testbench -of_objects [ipx::current_core]]]
+launch_simulation -simset test_all_uart
+source test_uart.tcl
+launch_simulation -simset test_baud
+source baud_test.tcl
+launch_simulation -simset test_recv
+source recv_test.tcl
+launch_simulation -simset test_trans
+source trans_test.tcl
+launch_simulation
+source UART_IP_v1_0.tcl
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::unload_core c:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/component.xml
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+close_sim
+close_sim
+close_sim
+close_sim
+close_sim

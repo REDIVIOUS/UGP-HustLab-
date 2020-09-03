@@ -1,0 +1,428 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jul 24 02:20:03 2020
+# Process ID: 15208
+# Log file: C:/Users/18131/Desktop/task2/task2_project/ip_repo/vivado.log
+# Journal file: C:/Users/18131/Desktop/task2/task2_project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 754.031 ; gain = 183.422
+ipx::open_ipxact_file C:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/component.xml
+ipx::remove_file C:/Users/18131/Desktop/task2/sim_source/all_uart_test.v [ipx::get_file_groups xilinx_testbench -of_objects [ipx::current_core]]
+ipx::add_file ../../../sim_source/all_uart_test.v [ipx::get_file_groups xilinx_testbench -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../sim_source/all_uart_test.v -of_objects [ipx::get_file_groups xilinx_testbench -of_objects [ipx::current_core]]]
+launch_simulation -simset test_all_uart
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/elaborate.log
+INFO: [USF-XSim-27] Simulation object is 'test_all_uart'
+INFO: [USF-XSim-37] Inspecting design source files for 'test_uart' in fileset 'test_all_uart'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'test_all_uart'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav'
+"xvlog -m64 --relax -prj test_uart_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/transmit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/reciever.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenBuadRate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/sim_source/all_uart_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 38f670bad7854a0b8f9f509572a771e3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_uart_behav xil_defaultlib.test_uart xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.GenBuadRate
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.test_uart
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_uart_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/xsim.dir/test_uart_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 54.766 ; gain = 0.004
+
+    while executing
+"webtalk_transmit -clientid 2062313064 -regid "" -xml C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/xsim..."
+    (file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/xsim.dir/test_uart_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 24 02:25:09 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 794.004 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_uart_behav -key {Behavioral:test_all_uart:Functional:test_uart} -tclbatch {test_uart.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source test_uart.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_uart_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 794.004 ; gain = 0.000
+launch_simulation -simset test_baud
+INFO: [USF-XSim-27] Simulation object is 'test_baud'
+INFO: [USF-XSim-37] Inspecting design source files for 'baud_test' in fileset 'test_baud'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'test_baud'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav'
+"xvlog -m64 --relax -prj baud_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenBuadRate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/sim_source/baud_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 38f670bad7854a0b8f9f509572a771e3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot baud_test_behav xil_defaultlib.baud_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.GenBuadRate
+Compiling module xil_defaultlib.baud_test
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot baud_test_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav/xsim.dir/baud_test_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 54.414 ; gain = 0.012
+
+    while executing
+"webtalk_transmit -clientid 3166545065 -regid "" -xml C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav/xsim.dir..."
+    (file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav/xsim.dir/baud_test_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 24 02:25:36 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 794.004 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_baud/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "baud_test_behav -key {Behavioral:test_baud:Functional:baud_test} -tclbatch {baud_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source baud_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'baud_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 794.004 ; gain = 0.000
+launch_simulation -simset test_recv
+INFO: [USF-XSim-27] Simulation object is 'test_recv'
+INFO: [USF-XSim-37] Inspecting design source files for 'recv_test' in fileset 'test_recv'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'test_recv'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav'
+"xvlog -m64 --relax -prj recv_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/reciever.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/sim_source/recv_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module recv_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 38f670bad7854a0b8f9f509572a771e3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot recv_test_behav xil_defaultlib.recv_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.recv_test
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot recv_test_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav/xsim.dir/recv_test_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 54.484 ; gain = 0.012
+
+    while executing
+"webtalk_transmit -clientid 3978111697 -regid "" -xml C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav/xsim.dir..."
+    (file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav/xsim.dir/recv_test_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 24 02:26:01 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 794.762 ; gain = 0.758
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_recv/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "recv_test_behav -key {Behavioral:test_recv:Functional:recv_test} -tclbatch {recv_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source recv_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'recv_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 801.570 ; gain = 7.566
+launch_simulation -simset test_trans
+INFO: [USF-XSim-27] Simulation object is 'test_trans'
+INFO: [USF-XSim-37] Inspecting design source files for 'trans_test' in fileset 'test_trans'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'test_trans'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav'
+"xvlog -m64 --relax -prj trans_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/transmit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/sim_source/trans_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trans_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 38f670bad7854a0b8f9f509572a771e3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot trans_test_behav xil_defaultlib.trans_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.trans_test
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot trans_test_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav/xsim.dir/trans_test_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 54.516 ; gain = 0.016
+
+    while executing
+"webtalk_transmit -clientid 692257333 -regid "" -xml C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav/xsim.dir..."
+    (file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav/xsim.dir/trans_test_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 24 02:26:21 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 805.773 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_trans/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "trans_test_behav -key {Behavioral:test_trans:Functional:trans_test} -tclbatch {trans_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source trans_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'trans_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 805.773 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'UART_IP_v1_0' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/sim_1/behav'
+"xvlog -m64 --relax -prj UART_IP_v1_0_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_IP_v1_0_S00_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/transmit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/reciever.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenBuadRate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UART_IP_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 38f670bad7854a0b8f9f509572a771e3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot UART_IP_v1_0_behav xil_defaultlib.UART_IP_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port tx_data [C:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v:98]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port rx_data [C:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v:100]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" Line 7. Module GenBuadRate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/transmit.v" Line 1. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/reciever.v" Line 1. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" Line 7. Module GenBuadRate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/transmit.v" Line 1. Module uart_tx doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/18131/Desktop/task2/uart_source/reciever.v" Line 1. Module uart_rx doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.UART_IP_v1_0_S00_AXI(C_S_AXI_DAT...
+Compiling module xil_defaultlib.GenBuadRate
+Compiling module xil_defaultlib.uart_tx
+Compiling module xil_defaultlib.uart_rx
+Compiling module xil_defaultlib.UART_IP_v1_0
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot UART_IP_v1_0_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/sim_1/behav/xsim.dir/UART_IP_v1_0_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 54.422 ; gain = 0.004
+
+    while executing
+"webtalk_transmit -clientid 2601985814 -regid "" -xml C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/sim_1/behav/xsim.dir/UAR..."
+    (file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/sim_1/behav/xsim.dir/UART_IP_v1_0_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jul 24 02:26:44 2020...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 823.535 ; gain = 7.367
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "UART_IP_v1_0_behav -key {Behavioral:sim_1:Functional:UART_IP_v1_0} -tclbatch {UART_IP_v1_0.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source UART_IP_v1_0.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'UART_IP_v1_0_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 829.586 ; gain = 17.223
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::unload_core c:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/component.xml
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" into library work [C:/Users/18131/Desktop/task2/uart_source/BaudRate.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/hdl/UART_IP_v1_0.v" into library work [C:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/hdl/UART_IP_v1_0.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/hdl/UART_IP_v1_0_S00_AXI.v" into library work [C:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/hdl/UART_IP_v1_0_S00_AXI.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/reciever.v" into library work [C:/Users/18131/Desktop/task2/uart_source/reciever.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/transmit.v" into library work [C:/Users/18131/Desktop/task2/uart_source/transmit.v:1]
+[Fri Jul 24 02:27:17 2020] Launched synth_1...
+Run output will be captured here: C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 2
+[Fri Jul 24 02:27:46 2020] Launched impl_1...
+Run output will be captured here: C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 48 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 1041.938 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 1041.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1135.977 ; gain = 283.445
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1485.609 ; gain = 314.949
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1485.609 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1485.609 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1485.609 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1485.609 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 24 02:31:13 2020...

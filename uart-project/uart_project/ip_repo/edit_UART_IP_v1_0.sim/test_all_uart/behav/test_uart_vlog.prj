@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../../uart_source/transmit.v"
+verilog xil_defaultlib  "../../../../../uart_source/reciever.v"
+verilog xil_defaultlib  "../../../../../uart_source/BaudRate.v"
+verilog xil_defaultlib  "../../../../../sim_source/all_uart_test.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

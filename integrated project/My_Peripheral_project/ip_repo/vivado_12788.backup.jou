@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Jul 20 17:03:45 2020
+# Process ID: 14468
+# Log file: C:/My_Peripheral_project/ip_repo/vivado.log
+# Journal file: C:/My_Peripheral_project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/My_Peripheral_project/ip_repo/edit_PWM_w_Int_v1_0.xpr
+ipx::open_ipxact_file C:/My_Peripheral_project/ip_repo/pwm_w_int_1.0/component.xml
+set_property core_revision 13 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  {c:/My_Peripheral_project/ip_repo/pwm_w_int_1.0 c:/Peripheral_course_lab1/ip_repo/PWM_w_Int_1.0 c:/My_Peripheral_project/ip_repo/myip_1.0 c:/Peripheral_course_lab1/ip_repo} [current_project]
+update_ip_catalog
+ipx::unload_core c:/My_Peripheral_project/ip_repo/pwm_w_int_1.0/component.xml
+ipx::open_ipxact_file C:/My_Peripheral_project/ip_repo/pwm_w_int_1.0/component.xml
+ipx::remove_port PWM_Counter [ipx::current_core]
+ipx::remove_port DutyCycle [ipx::current_core]
+set_property core_revision 14 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/My_Peripheral_project/ip_repo/pwm_w_int_1.0
+ipx::unload_core c:/My_Peripheral_project/ip_repo/pwm_w_int_1.0/component.xml
+ipx::open_ipxact_file C:/My_Peripheral_project/ip_repo/pwm_w_int_1.0/component.xml
+set_property core_revision 15 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/My_Peripheral_project/ip_repo/pwm_w_int_1.0

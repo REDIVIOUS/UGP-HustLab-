@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jul 24 02:04:57 2020
+# Process ID: 9440
+# Log file: C:/Users/18131/Desktop/task2/task2_project/ip_repo/vivado.log
+# Journal file: C:/Users/18131/Desktop/task2/task2_project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:42 ; elapsed = 00:00:24 . Memory (MB): peak = 721.242 ; gain = 180.965
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 24 02:06:34 2020...
+/uart_ip_1.0/component.xml
+ipx::open_ipxact_file: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 770.168 ; gain = 0.000
+ipx::remove_file C:/Users/18131/Desktop/task2/uart_source/BaudRate.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+ipx::remove_file C:/Users/18131/Desktop/task2/uart_source/BaudRate.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+ipx::add_file ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0_S00_AXI.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0_S00_AXI.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0_S00_AXI.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file ../../../uart_source/transmit.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../uart_source/transmit.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../uart_source/transmit.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file ../../../uart_source/reciever.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../uart_source/reciever.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../uart_source/reciever.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file ../../../uart_source/BaudRate.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../uart_source/BaudRate.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../uart_source/BaudRate.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file ../../../uart_source/transmit.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../uart_source/transmit.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../uart_source/transmit.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file ../../../uart_source/reciever.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../uart_source/reciever.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../uart_source/reciever.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file ../../../uart_source/BaudRate.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../uart_source/BaudRate.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../uart_source/BaudRate.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file hdl/UART_IP_v1_0.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files hdl/UART_IP_v1_0.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files hdl/UART_IP_v1_0.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file hdl/UART_IP_v1_0_S00_AXI.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files hdl/UART_IP_v1_0_S00_AXI.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files hdl/UART_IP_v1_0_S00_AXI.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::remove_file ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0_S00_AXI.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+ipx::remove_file ../../../../ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+ipx::add_file hdl/UART_IP_v1_0.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files hdl/UART_IP_v1_0.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files hdl/UART_IP_v1_0.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file hdl/UART_IP_v1_0_S00_AXI.v [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files hdl/UART_IP_v1_0_S00_AXI.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files hdl/UART_IP_v1_0_S00_AXI.v -of_objects [ipx::get_file_groups xilinx_verilogsynthesis -of_objects [ipx::current_core]]]
+ipx::add_file ../../../sim_source/all_uart_test.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../sim_source/all_uart_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../sim_source/all_uart_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::add_file ../../../sim_source/recv_test.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../sim_source/recv_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../sim_source/recv_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file ../../../sim_source/baud_test.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../sim_source/baud_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../sim_source/baud_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file ../../../sim_source/trans_test.v [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]
+set_property type verilogSource [ipx::get_files ../../../sim_source/trans_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+set_property library_name xil_defaultlib [ipx::get_files ../../../sim_source/trans_test.v -of_objects [ipx::get_file_groups xilinx_verilogbehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::unload_core c:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/component.xml
+ipx::open_ipxact_file C:/Users/18131/Desktop/task2/task2_project/ip_repo/uart_ip_1.0/component.xml
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 24 02:20:00 2020...

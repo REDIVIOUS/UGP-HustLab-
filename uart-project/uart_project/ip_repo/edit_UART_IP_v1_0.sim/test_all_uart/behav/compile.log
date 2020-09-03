@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/transmit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/reciever.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/uart_source/BaudRate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GenBuadRate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/sim_source/all_uart_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.sim/test_all_uart/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

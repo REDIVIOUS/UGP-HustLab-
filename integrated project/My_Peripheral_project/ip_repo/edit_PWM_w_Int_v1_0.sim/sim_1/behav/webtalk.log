@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Jul 20 17:02:35 2020
+# Process ID: 11360
+# Log file: c:/peripheral_course_lab1/ip_repo/edit_PWM_w_Int_v1_0.sim/sim_1/behav/webtalk.log
+# Journal file: c:/peripheral_course_lab1/ip_repo/edit_PWM_w_Int_v1_0.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source c:/peripheral_course_lab1/ip_repo/edit_PWM_w_Int_v1_0.sim/sim_1/behav/xsim.dir/PWM_w_Int_v1_0_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 54.039 ; gain = 0.012
+
+    while executing
+"webtalk_transmit -clientid 4108772086 -regid "" -xml c:/peripheral_course_lab1/ip_repo/edit_PWM_w_Int_v1_0.sim/sim_1/behav/xsim.dir/PWM_w_Int_v1_0_beh..."
+    (file "c:/peripheral_course_lab1/ip_repo/edit_PWM_w_Int_v1_0.sim/sim_1/behav/xsim.dir/PWM_w_Int_v1_0_behav/webtalk/xsim_webtalk.tcl" line 32)
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul 20 17:02:43 2020...

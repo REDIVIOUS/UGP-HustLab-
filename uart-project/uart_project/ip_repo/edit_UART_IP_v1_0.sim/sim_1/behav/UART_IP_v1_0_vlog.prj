@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../UART_IP_1.0/hdl/UART_IP_v1_0_S00_AXI.v"
+verilog xil_defaultlib  "../../../../../uart_source/transmit.v"
+verilog xil_defaultlib  "../../../../../uart_source/reciever.v"
+verilog xil_defaultlib  "../../../../../uart_source/BaudRate.v"
+verilog xil_defaultlib  "../../../UART_IP_1.0/hdl/UART_IP_v1_0.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

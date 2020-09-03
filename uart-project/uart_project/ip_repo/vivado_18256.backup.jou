@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jul 28 18:08:06 2020
+# Process ID: 12612
+# Log file: C:/Users/18131/Desktop/task2/task2_project/ip_repo/vivado.log
+# Journal file: C:/Users/18131/Desktop/task2/task2_project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.xpr
+launch_simulation -simset test_trans
+launch_simulation -simset test_trans
+launch_simulation -simset test_trans
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_simulation -simset test_trans
+launch_simulation -simset test_recv
+launch_simulation -simset test_baud
+launch_simulation -simset test_all_uart
+launch_simulation -simset test_all_uart

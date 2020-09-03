@@ -1,0 +1,127 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 12788
+
+Current time: 	7/20/20 5:14:03 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1368x912
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	18131
+User directory: C:/My_Peripheral_project/ip_repo
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/18131/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/18131/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	139 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 395 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\My_Peripheral_project\ip_repo\edit_PWM_w_Int_v1_0.xpr. Version: Vivado v2015.2 
+// Tcl Message: open_project C:/My_Peripheral_project/ip_repo/edit_PWM_w_Int_v1_0.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 42 MB (+41959kb) [00:00:08]
+// [Engine Memory]: 384 MB (+251226kb) [00:00:08]
+// Tcl Message: open_project C:/My_Peripheral_project/ip_repo/edit_PWM_w_Int_v1_0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/My_Peripheral_project/ip_repo/pwm_w_int_1.0'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 47 MB (+2361kb) [00:00:10]
+// [Engine Memory]: 410 MB (+7163kb) [00:00:10]
+// [GUI Memory]: 50 MB (+987kb) [00:00:12]
+// [Engine Memory]: 461 MB (+31712kb) [00:00:12]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 484 MB (+386kb) [00:00:19]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 484 MB. GUI used memory: 32 MB. Current time: 7/20/20 5:14:15 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 54 MB (+1243kb) [00:00:24]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: edit_PWM_w_Int_v1_0; location: C:/My_Peripheral_project/ip_repo; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 755.105 ; gain = 194.941 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 57 MB (+221kb) [00:05:16]
+// [GUI Memory]: 60 MB (+72kb) [00:09:27]
+// Elapsed time: 547 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+selectTab((HResource) null, (String) null, (HResource) null, "Messages", 1, false, true); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame) - Double Click
+maximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ap:DockableFrame (FrameContainer:JideTabbedPane, cl:JFrame)
+closeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // ap:DockableFrame (FrameContainer:JideTabbedPane, cl:JFrame)
+floatFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // ap:DockableFrame (FrameContainer:JideTabbedPane, cl:JFrame)
+// Elapsed time: 22 seconds
+closeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // ap:DockableFrame (FrameContainer:JideTabbedPane, FrameFloatingContainer:ResizableFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 505 MB. GUI used memory: 32 MB. Current time: 7/20/20 5:24:11 PM CST
+// HOptionPane Error: "Can't find a command that matches 'address' (Command Not Found)"
+// Elapsed time: 448 seconds
+selectButton("RDIResource.SearchCommandComponent_CANT_FIND_COMMAND_THAT_MATCHES_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// [Engine Memory]: 510 MB (+1349kb) [00:17:30]
+// Elapsed time: 11 seconds
+setText("RDIResource.SearchCommandComponent_SEARCH_COMMANDS", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cl:JFrame)
+// [GUI Memory]: 63 MB (+51kb) [00:19:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 34 MB. Current time: 7/20/20 5:54:11 PM CST
+// PAPropertyPanels.initPanels (PWM_w_Int_v1_0.v) elapsed time: 0.3s
+// Elapsed time: 1747 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_w_Int_v1_0 (PWM_w_Int_v1_0.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [GUI Memory]: 66 MB (+23kb) [00:51:00]
+// [GUI Memory]: 69 MB (+257kb) [00:51:50]
+// [GUI Memory]: 73 MB (+123kb) [00:52:40]
+// [GUI Memory]: 77 MB (+63kb) [01:10:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 33 MB. Current time: 7/20/20 6:24:12 PM CST
+// [GUI Memory]: 81 MB (+255kb) [01:34:43]
+// [GUI Memory]: 85 MB (+226kb) [01:35:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 36 MB. Current time: 7/20/20 6:54:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 45 MB. Current time: 7/20/20 7:24:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 44 MB. Current time: 7/20/20 8:34:50 PM CST
+// [GUI Memory]: 90 MB (+272kb) [03:38:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 59 MB. Current time: 7/20/20 9:04:49 PM CST
+// Elapsed time: 12075 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_w_Int_v1_0 (PWM_w_Int_v1_0.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PWM_w_Int_v1_0 (PWM_w_Int_v1_0.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 38 seconds
+selectCodeEditor("PWM_w_Int_v1_0.v", 528, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 48 MB. Current time: 7/20/20 9:34:50 PM CST
+// [GUI Memory]: 94 MB (+49kb) [04:30:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 46 MB. Current time: 7/20/20 10:04:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 46 MB. Current time: 7/20/20 10:34:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 45 MB. Current time: 7/20/20 11:04:51 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 46 MB. Current time: 7/20/20 11:34:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 45 MB. Current time: 7/21/20 12:06:55 AM CST
+// [GUI Memory]: 100 MB (+621kb) [07:12:50]
+// [GUI Memory]: 105 MB (+77kb) [07:14:55]
+// [GUI Memory]: 110 MB (+105kb) [07:16:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 51 MB. Current time: 7/21/20 12:36:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 53 MB. Current time: 7/21/20 1:06:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 53 MB. Current time: 7/21/20 1:53:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 511 MB. GUI used memory: 50 MB. Current time: 7/21/20 5:32:29 AM CST

@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jul 24 02:31:32 2020
+# Process ID: 12980
+# Log file: C:/Users/18131/Desktop/task2/task2_project/ip_repo/vivado.log
+# Journal file: C:/Users/18131/Desktop/task2/task2_project/ip_repo\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project C:/Users/18131/Desktop/task2/task2_project/ip_repo/edit_UART_IP_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 734.738 ; gain = 162.684
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 24 02:35:11 2020...
+/uart_ip_1.0/component.xml
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file C:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0/hdl/UART_IP_v1_0.v -top_module_name UART_IP_v1_0
+INFO: [IP_Flow 19-2418] Expression "((C_S00_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 24 02:35:06 2020...

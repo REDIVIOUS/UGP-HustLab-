@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jul 29 21:17:34 2020
+# Process ID: 17256
+# Log file: C:/Users/18131/Desktop/task2/task2_project/Task2_AXI4Lite_Uart/vivado.log
+# Journal file: C:/Users/18131/Desktop/task2/task2_project/Task2_AXI4Lite_Uart\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/18131/Desktop/task2/task2_project/Task2_AXI4Lite_Uart/Task2_AXI4Lite_Uart.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/18131/Desktop/task2/task2_project/ip_repo/UART_IP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 720.102 ; gain = 160.723
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 29 21:19:44 2020...
